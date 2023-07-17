@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 68px;
+    padding-top: 80px;
+    border-radius: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.main-img{
+    width: 35%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-title{
+    color: #01dd00;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.functions{
+    background-color: #01dd00;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.functions button {
+    padding: 4px;
+}
+
+.functions button:hover {
+    cursor: pointer;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.flex-box {
+    display: flex;
+    gap: 8px;
+}
+
+.orange-div{
+    background-color: rgb(255, 185, 55);
+    border-radius: 5px;
+    width: 250px;
+    height: 25px;
+}
+
+.green-div{
+    background-color: #04b104;
+    border-radius: 5px;
+    width: 430px;
+    height: 25px;
+}
+
+.red-div{
+    background-color: rgb(255, 43, 43);
+    border-radius: 5px;
+    width: 120px;
+    height: 25px;
+}
+
+.main-box{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+input, h2, p {
+    padding: 3px;
+}
